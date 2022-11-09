@@ -57,24 +57,23 @@ p {
   margin: 0 50px 0 0;
 }
 
-.header nav>ul {
+.header nav > ul {
   display: flex;
   gap: 40px;
   font-size: 16px;
   font-weight: 400;
 }
 
-.header nav>ul a {
+.header nav > ul a {
   display: block;
 }
-
 
 /* -----------------------------------------------메인 */
 
 .main_visual {
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 85vh;
   overflow: hidden;
   margin-top: 0px;
 }
@@ -87,13 +86,13 @@ p {
   /*adjust s value for speed*/
   -webkit-animation: animatedBackground 500s linear infinite;
   animation: animatedBackground 500s linear infinite;
-  height: 80vh;
+  height: 85vh;
 }
 
 .main_visual .base .fixed_item {
   position: absolute;
   width: 100%;
-  height: 80vh;
+  height: 85vh;
   margin-top: 85px;
   background: url(../img/street-bg.png);
   background-repeat: no-repeat;
@@ -114,13 +113,11 @@ p {
   }
 }
 
-
 .main_visual .icon .plusicon {
   width: 100px;
   height: 100px;
   z-index: 10;
 }
-
 
 .main_visual .iconmain {
   position: relative;
@@ -141,7 +138,6 @@ p {
   top: 50px;
   right: 50px;
 }
-
 
 .main_visual .icon .mainst {
   position: absolute;
@@ -164,11 +160,11 @@ p {
   width: 500px;
 }
 
-.main_visual .mainitem>* {
+.main_visual .mainitem > * {
   flex: 1;
 }
 
-.main_visual .mainitem>img {
+.main_visual .mainitem > img {
   height: 100%;
   /* width: 100%; */
 }
@@ -192,9 +188,8 @@ p {
 
 /* ---------------------------------------잠깐주차  */
 .sale {
-  background: #444;
+  background: #ffae1b;
   padding: 20px;
-
 }
 
 .sale p {
@@ -215,7 +210,8 @@ button.btn {
   border: 0;
   padding: 0;
   border-radius: 15px;
-  background-color: rgb(229, 57, 35);
+  /* background-color: rgb(229, 57, 35); */
+  background-color: #e62728;
   /* cursor: pointer; */
   /* outline-offset: 4px; */
   position: relative;
@@ -243,7 +239,8 @@ button.btn .front {
   line-height: 50px;
   font-size: 15px;
   color: rgb(255, 255, 255);
-  background-color: rgb(229, 57, 35);
+  background-color: #e62728;
+  /* background-color: rgb(229, 57, 35); */
   transform: translateY(-8px);
   transition: transform 0.4s cubic-bezier(0.3, 0.7, 0.4, 1);
 }
@@ -272,7 +269,7 @@ button.btn .edge {
 }
  */
 
-.mainim .wave {
+/* .mainim .wave {
   display: flex;
   width: 100%;
   height: 35px;
@@ -281,13 +278,13 @@ button.btn .edge {
   background: #027b42;
   -webkit-mask: url(../img/hills.svg);
   mask: url(../img/hills.svg);
-}
+} */
 
 /* -----------------------------최신상품 만나봐 섹션 */
 
 .recent {
   padding: 100px 0 0 0;
-  background: #027b42;
+  background: #72c9df;
 }
 
 .recent h2 {
@@ -327,7 +324,7 @@ button.btn .edge {
   background: #6f6f6f;
 }
 
-.r_txt>span {
+.r_txt > span {
   display: inline-block;
   font-size: 13px;
   color: #6f6f6f;
@@ -373,7 +370,7 @@ button.btn .edge {
   height: 35px;
   box-sizing: border-box;
   background-repeat: repeat-x;
-  background: #f5e3b9;
+  background: #fff;
   -webkit-mask: url(../img/hills.svg);
   mask: url(../img/hills.svg);
   z-index: 999;
@@ -388,12 +385,12 @@ button.btn .edge {
   transform: translateX(330px);
 }
 
-.tab_menu>li {
+.tab_menu > li {
   display: inline-block;
   margin: 0 auto;
 }
 
-.tab_menu>li>a {
+.tab_menu > li > a {
   display: block;
   /* line-height: 40px; */
   padding: 0 20px;
@@ -406,8 +403,8 @@ button.btn .edge {
   margin: 0 0 10px 0;
 }
 
-.tab_menu>li.on a {
-  background: #027b42;
+.tab_menu > li.on a {
+  background: #ffae1b;
   color: #fff;
 }
 
@@ -422,16 +419,16 @@ button.btn .edge {
   padding: 20px 0 0 0;
 }
 
-.tab_menu>li~li {
+.tab_menu > li ~ li {
   border-left: 1px solid #fff;
 }
 
-.tab_content>li {
+.tab_content > li {
   display: none;
   padding: 10px;
 }
 
-.tab_content>li.on {
+.tab_content > li.on {
   display: block;
 }
 
@@ -559,27 +556,27 @@ button.btn .edge {
   margin: 0 0 10px 0;
 }
 
-.footer .footerTop ul>li>h3 {
+.footer .footerTop ul > li > h3 {
   line-height: 50px;
   font-weight: 500;
 }
 
-.footer .footerTop ul>li>ul>li {
+.footer .footerTop ul > li > ul > li {
   font-size: 13px;
   font-weight: 300;
   margin: 0 0 10px 0;
 }
 
-.footer .container>ul {
+.footer .container > ul {
   justify-content: space-between;
   display: flex;
 }
 
-.footer .container>ul>.lelego {
+.footer .container > ul > .lelego {
   flex: 2;
 }
 
-.footer .container>ul>.footerBar {
+.footer .container > ul > .footerBar {
   flex: 1;
 }
 
@@ -588,11 +585,11 @@ button.btn .edge {
     gap: 10px;
 } */
 
-.footer .container>ul>.lelego>.haha {
+.footer .container > ul > .lelego > .haha {
   margin: 0 0 50px 0;
 }
 
-.footer .container>ul>.lelego>.icon>li {
+.footer .container > ul > .lelego > .icon > li {
   display: inline-block;
   padding: 5px 8px;
   border: 1px solid #999;
@@ -619,9 +616,8 @@ button.btn .edge {
   display: block;
 }
 
-.sell_vid .sv_top {}
-
-
+.sell_vid .sv_top {
+}
 
 .sell_vid .sell_tit {
   position: absolute;
@@ -644,8 +640,6 @@ button.btn .edge {
   padding: 5px;
 }
 
-
-
 .sell_vid .sv_txt {
   position: absolute;
   bottom: 0;
@@ -665,14 +659,11 @@ button.btn .edge {
   margin: 0 0 50px 0;
 }
 
-
-
 .item_list {
   width: 50%;
   background: #f5e3b9;
   padding: 50px 200px;
 }
-
 
 .item_list ul li {
   position: relative;
@@ -680,5 +671,5 @@ button.btn .edge {
   margin: 0 0 50px 0;
 }
 
-
-.item_list ul li::after {}
+.item_list ul li::after {
+}
